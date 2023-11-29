@@ -170,6 +170,7 @@ footer{
 }
 #change_c{
 	margin-left: 20px;
+	padding: 20px;
 }
 
 #image{
@@ -204,4 +205,7 @@ button {
 
 button:hover {
 	background-color: #8cc099;
+}
+#to{
+	padding: 5px;
 }
