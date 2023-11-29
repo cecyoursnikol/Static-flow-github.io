@@ -123,13 +123,19 @@ nav .sideMenuButton {
 
 .hero-contect{
     text-align: center;
+	margin-top: 60px;
 }
 .hero-contect h2{
     font-size: 35px;
+	margin:10px;
+	padding: 10px;
 }
 
 .about-content p{
     font-size: 18px;
+	padding: 10px 0;
+	margin: 10px 0;
+	margin-left: 20px;
 }
 .btn{
     display: inline-block;
@@ -157,4 +163,45 @@ footer{
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+#change{
+	margin-left: 10px;
+}
+#change_c{
+	margin-left: 20px;
+}
+
+#image{
+	width: 100px;
+	height: 100px;
+}
+.button {
+	margin-top: 12px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.button button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+	
+}
+
+.button button:hover {
+	background-color: #8cc099;
+}
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+	
+}
+
+button:hover {
+	background-color: #8cc099;
 }

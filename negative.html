@@ -9,46 +9,46 @@
 </head>
 
 <body>
-   
-        <nav>
-            <div class="heading">Artificial Intelligence</div>
-            <span class="sideMenuButton" onclick="openNavbar()">
-                ☰ 
-            </span>
-    
-            <div class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="negative.html">Negative points</a></li>
-                    <li><a href="benifites.html">Benifits</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                </ul>
-            </div>
-        </nav>
-    
-        <!-- Side navigation bar for 
-            responsive website -->
-        <div class="sideNavigationBar" id="sideNavigationBar">
-            <a href="#" class="closeButton" onclick="closeNavbar()">
-    
-            </a>
-            <a href="#">Home</a>
-            <a href="#">Negative points</a>
-            <a href="#">Benifits</a>
+
+    <nav>
+        <div class="heading">Artificial Intelligence</div>
+        <span class="sideMenuButton" onclick="openNavbar()">☰</span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="negative.html">Negative points</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
         </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+            responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+
+        </a>
+        <a href="#">Home</a>
+        <a href="#">Negative points</a>
+        <a href="#">Benifits</a>
+    </div>
 
 
     <section class="hero">
         <div class="hero-contect">
             <h2>Welcome to Know black side of AI</h2>
             <p>Your source for insightful articles on various topics.</p>
-            <a href="#blog" class="btn">Explore the Blog</a>
+            <br>
+            <button>
+            <a href="#blog" class="button">Explore the Blog</a>
+        </button>
         </div>
     </section>
 
     <section id="about">
         <div class="about-content">
-            <h2>About Us</h2>
+            <h2 id="change">About Us</h2>
             <p>Welcome to Your Blog Name, your go-to destination for informative and engaging blog posts. Our team of
                 passionate writers covers a wide range of topics, from technology to travel, health to lifestyle, and
                 everything in between. We're dedicated to providing you with quality content that informs, entertains,
@@ -58,23 +58,26 @@
     </section>
 
     <section id="blog">
-        <h2>Recent Blog Post</h2>
+        <h2 id="change">Recent Blog Post</h2>
         <div class="blog-posts">
             <div class="blog-post">
-                <img src="blog-image1.jpg" alt="Blog Post 1">
+                <img src="neg1.png" alt="Blog Post 1" id="image">
 
                 <h3>Blog Post Title 1</h3>
                 <p>Short description of the blog post content. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a href="blog-post1.html" class="btn">Read more</a>
-
+                <button>
+                    <a href="blog-post1.html" class="button">Read more</a>
+                </button>
             </div>
             <div class="blog-post">
-                <img src="blog-image2.jpg" alt="Blog Post 2">
+                <img src="neg.webp" alt="Blog Post 2" id="image">
                 <h3>Blog Post Title 2</h3>
                 <p>Short description of the blog post content. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a href="blog-post-2.html" class="btn">Read More</a>
+                <button>
+                    <a href="blog-post-2.html" class="button">Read More</a>
+                </button>
             </div>
         </div>
     </section>
@@ -82,9 +85,12 @@
 
     <section id="contact">
         <div class="contact content">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, feedback, or would like to collaborate, feel free to get in touch with us. We're here to connect with our readers and fellow bloggers.</p>
-            <a href="mailto:contact@yourblogname.com" class="btn">Email Us</a>
+            <h2 id="change">Contact Us</h2>
+            <p id="change_c">If you have any questions, feedback, or would like to collaborate, feel free to get in
+                touch with us. We're here to connect with our readers and fellow bloggers.</p>
+            <button>
+                <a href="mailto:contact@yourblogname.com" class="button">Email Us</a>
+            </button>
         </div>
     </section>
 
